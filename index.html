@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sales of Real estate houses, lands and rentage of housing properties"
+    />
+    <meta
+      name="keywords"
+      content="Hosue, Rent, Real estate, Real estate houses in ibadan, Sales of houses, Land, Sales of land, sales of land in Ibadan, landed properties in Ibadan, Construction of real estate, Construction of real estate in Ibadan"
+    />
+    <meta name="author" content="Lawras Real Estate Properties" />
+    <link href="https://lawras.com.ng/" rel="canonical" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Lawras Company</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="header">
+        <div class="logo-box">
+          <img
+            src="images/lawras.png"
+            height="52px"
+            width="68px"
+            alt="lawras Logo"
+          />
+          <a href="#" class="logo-link">Lawras</a>
+        </div>
+        <button type="button" aria-label="toggle_bar" class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+        </button>
+        <nav class="nav-bar">
+          <ul class="nav-lists">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonial</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+          <li class="mobile-nav__item">
+            <a href="#about" class="mobile-nav__link">About</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#services" class="mobile-nav__link">Services</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#testimonials" class="mobile-nav__link">Testimonial</a>
+          </li>
+          <li class="mobile-nav__item mobile-nav__item--cta">
+            <a href="#contact" class="mobile-nav__link">Contact</a>
+          </li>
+        </ul>
+        <span class="close"> &times; </span>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-sec">
+        <h2 class="hero-highlight">
+          Let give you the comfort you desire, Buy your dream home.
+        </h2>
+      </section>
+      <section class="about" id="about">
+        <h1>Construction of Real Estate and Sales of Landed Properties</h1>
+        <div class="about-sub">
+          <p>
+            Lawras is a real estate company that construct real estate houses,
+            selling of lands, renting houses for personal use and for business
+            purposes, our properties are designed to suit your personal needs or
+            meet your business demands, our properties are located in highly
+            marketable and Industrial areas. We deliver the best and wide range
+            of infrastructures also with premium design to suit your comfort.
+          </p>
+          <img src="images/construction.jpg" alt="Construction image" />
+        </div>
+      </section>
+      <section class="services" id="services">
+        <h1 style="text-align: center">Our Services</h1>
+        <div class="offers">
+          <div class="fig-box">
+            <figcaption class="service-header">Selling of lands</figcaption>
+            <figure class="land-box">
+              <img
+                src="images/land.jpg"
+                class="land-img"
+                alt="land"
+                width="100%"
+              />
+              <p class="service-sub" data-type="land">
+                Before venturing into buying any land there are certain
+                criterias you need to consider,<span class="dots">...</span>
+
+                <span class="more" style="display: none">
+                  lawras will help and guide you, so as to buy a land that suits
+                  your budget and can also meet your needs either business wise
+                  or personal use. We've got you covered
+                </span>
+                <button
+                  onclick="expdClose('land')"
+                  class="exp-btn"
+                  style="padding: 0.5rem"
+                >
+                  Read More
+                </button>
+              </p>
+            </figure>
+          </div>
+          <div class="fig-box">
+            <figcaption class="service-header">
+              Construction of Real Estate Houses
+            </figcaption>
+            <figure class="estate-box">
+              <img
+                src="images/estate.jpg"
+                class="estate-img"
+                alt="estate"
+                width="100%"
+              />
+              <p class="service-sub" data-type="estate">
+                Lawras has a wide range of houses and Real estate that suits
+                your needs depending on your budget,<span class="dots"
+                  >...</span
+                >
+                <span class="more" style="display: none">
+                  apart from our wide range of houses, you can also tell us how
+                  you want your desired dream home, so we can deliver it to you.
+                </span>
+                <button
+                  onclick="expdClose('estate')"
+                  class="exp-btn"
+                  style="padding: 0.5rem"
+                >
+                  Read More
+                </button>
+              </p>
+            </figure>
+          </div>
+          <div class="fig-box">
+            <figcaption class="service-header">
+              Rentage of Housing Properties
+            </figcaption>
+            <figure class="rentage-box">
+              <img
+                src="images/estate2.jfif"
+                class="/rent-img"
+                alt="Rentage houses"
+                width="100%"
+              />
+              <p class="service-sub" data-type="rentage">
+                Lawras has housing properties for rent that meet your
+                basic/personal needs or business purposes,
+                <span class="dots">...</span>
+                <span class="more" style="display: none">
+                  our personal houses are located in cool serene environment
+                  while our business houses are located in highly marketable
+                  areas.
+                </span>
+                <button
+                  onclick="expdClose('rentage')"
+                  class="exp-btn"
+                  style="padding: 0.5rem"
+                >
+                  Read More
+                </button>
+              </p>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="choose-container"
+          style="background-color: #ddd; padding: 20px"
+        >
+          <div>
+            <h2 class="choose-header">Why Choose Us</h2>
+            <ul class="choose-lists">
+              <li class="list">
+                <ion-icon
+                  name="shield-checkmark-outline"
+                  class="list-icon"
+                ></ion-icon>
+                Premium design and well-ventilated Architectural design
+              </li>
+              <li class="list">
+                <ion-icon
+                  name="shield-checkmark-outline"
+                  class="list-icon"
+                ></ion-icon>
+                Our houses are located in secured and remote areas
+              </li>
+              <li class="list">
+                <ion-icon
+                  name="shield-checkmark-outline"
+                  class="list-icon"
+                ></ion-icon>
+                We have different houses with fair pricing that suits your needs
+                or budget
+              </li>
+              <li class="list">
+                <ion-icon
+                  name="shield-checkmark-outline"
+                  class="list-icon"
+                ></ion-icon>
+                Paperworks are well documented and authentic
+              </li>
+            </ul>
+          </div>
+          <img src="images/why3.jpg" alt="Why Choose Us" />
+        </div>
+      </section>
+      <section
+        class="testimonials-sec"
+        id="testimonials"
+        style="margin-top: 6.4rem"
+      >
+        <h1 class="testimonials-header">Testimonials</h1>
+        <div class="testmonials">
+          <blockquote>
+            <p class="testmonial-text">
+              I bought my land from Lawras and am pleased with their customer
+              service, I was guided to choose the best choice of land based on
+              my budget and project, was also pleased with how the paperwork was
+              handled. I recommend anyone to buy from Lawras, if they desire to
+              be free from any legal or fraud issues regarding purchasing of
+              lands and properties.
+            </p>
+            <p class="testmonial-author">Miss Fisayo</p>
+            <p class="testimonial-job">Manager at Tiammy Guest inn</p>
+          </blockquote>
+          <blockquote>
+            <p class="testmonial-text">
+              Lawras constructed my house and am very pleased with the job done,
+              the quality of materials used, the well-ventilated architecture, i
+              was also very impressed with their well documentated paperwork. I
+              had no regret in hiring them.
+            </p>
+            <p class="testmonial-author">Mr Nuhin</p>
+            <p class="testimonial-job">Managing Director Adiras Company</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h1>Contact Us For Bookings Or Enquiry</h1>
+        <div class="contact-box">
+          <div class="form-box">
+            <h2>A Step to closer to your dream home</h2>
+            <form
+              class="cta-form"
+              action="mailto:lawras2008@yahoo.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+              <label for="phone">Phone No</label>
+              <input type="tel" id="phone" name="phone" required />
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                rows="6"
+                name="message"
+                required
+              ></textarea>
+              <input type="submit" class="btn" value="send" />
+            </form>
+          </div>
+          <img src="images/contact.jpg" alt="contact Image" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <hr />
+      <div class="footer-info">
+        <div class="footer-contact">
+          <p>Contact us</p>
+          <ul class="footer-contact">
+            <li>
+              <span>Address: </span>Lekan Alabi Street, Iwo Road, Ibadan, Oyo
+              State
+            </li>
+            <li><span>Phone No:</span> +2348023393445</li>
+            <li><span>Email:</span> lawras2008@yahoo.com</li>
+          </ul>
+        </div>
+        <div class="footer-about-box">
+          <p class="footer-about-header">About Company</p>
+          <p class="footer-about-sub">
+            Lawras construct and sells real estate houses, sells lands and are
+            also into rentage of houses for personal use or bussiness purpose.
+          </p>
+        </div>
+        <p class="footer-copyright">
+          Lawras Company Copyright &copy;
+          <span class="year">2022</span> Resevered
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>
